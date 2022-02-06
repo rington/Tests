@@ -1,0 +1,121 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\CourseWork\\PL.Tests\\PL.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\CourseWork\\BLL\\BLL.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\CourseWork\\BLL\\BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "D:\\CourseWork\\BLL\\BLL.csproj",
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "D:\\CourseWork\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\CourseWork\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    },
+    "D:\\CourseWork\\DAL\\DAL.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\CourseWork\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "D:\\CourseWork\\DAL\\DAL.csproj"
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    },
+    "D:\\CourseWork\\PL.Tests\\PL.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CourseWork\\PL.Tests\\PL.Tests.csproj",
+        "projectName": "PL.Tests",
+        "projectPath": "D:\\CourseWork\\PL.Tests\\PL.Tests.csproj",
+        "packagesPath": "C:\\Users\\roman.zaiets\\.nuget\\packages\\",
+        "outputPath": "D:\\CourseWork\\PL.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\roman.zaiets\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "targetAlias": "net461",
+            "projectReferences": {
+              "D:\\CourseWork\\PL\\PL.csproj": {
+                "projectPath": "D:\\CourseWork\\PL\\PL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "targetAlias": "net461",
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CourseWork\\PL\\PL.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\CourseWork\\PL\\PL.csproj",
+        "projectName": "PL",
+        "projectPath": "D:\\CourseWork\\PL\\PL.csproj",
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "D:\\CourseWork\\BLL\\BLL.csproj": {
+                "projectPath": "D:\\CourseWork\\BLL\\BLL.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    }
+  }
+}
