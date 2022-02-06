@@ -1,1 +1,1 @@
-# Tests
+# Some tests for HotelsBooking controllers
